@@ -155,6 +155,22 @@
     .hero .publication-title {
       line-height: 1.1;
     }
+    .profile-figure {
+  max-width: 240px;
+  width: 100%;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+    border: 1px solid rgba(0,0,0,.08);
+    box-shadow: 0 8px 24px rgba(0,0,0,.08);
+  }
+  
+  /* Optional: make it circular instead of rounded rectangle */
+  /* .profile-image { border-radius: 999px; aspect-ratio: 1 / 1; } */
   </style>
 </head>
 <body>
@@ -215,15 +231,7 @@
           <div class="columns is-centered">
             <div class="column has-text-centered">
               <div class="profile-avatar-wrap">
-                <!-- Profile Pic -->
-                <img
-                    src="imgs/profile.png"
-                    alt="Profile picture of Valdemar Danry"
-                    class="profile-avatar"
-                    loading="eager"
-                    decoding="async"
-                  >
-                </div>
+                
               <!-- Title -->
               <h1 class="title is-1 publication-title">MMAI 2026</h1>
 
@@ -300,10 +308,23 @@
     <!-- Intro / Bio -->
     <section class="section hero is-light">
       <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3 has-text-centered">Bio</h2>
-
+        <div class="columns is-vcentered is-variable is-6">
+          
+          <!-- Left: Profile image -->
+          <div class="column is-4 has-text-centered">
+            <figure class="image is-inline-block profile-figure">
+              <img
+                src="imgs/profile.png"
+                alt="Profile photo of Valdemar Danry"
+                class="profile-image"
+                loading="lazy"
+              >
+            </figure>
+          </div>
+            <!-- Right: Bio text -->
+          <div class="column is-8">
+            <h2 class="title is-3">Bio</h2>
+    
             <div class="content has-text-justified">
               <p>
                 Hi, I’m Valdemar. I arrived at MIT through a series of poor containment decisions involving curiosity and the internet.
