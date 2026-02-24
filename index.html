@@ -6,52 +6,59 @@
 
   <!-- Primary Meta Tags -->
   <meta name="title" content="MMAI 2026 - Valdemar Danry">
-  <meta name="description" content="A quirky course site for Modeling Multimodal AI 2026: homework assignments, experiments, random thoughts, and a brainrot-optimized multimodal final project.">
-  <meta name="keywords" content="multimodal AI, modeling multimodal ai, MIT, course website, homework, machine learning, multimodal models, VLM, RL, agents">
+  <meta name="description" content="Valdemar Danry's Modeling Multimodal AI 2026 course site: homework assignments, final project, and class notes/random thoughts.">
+  <meta name="keywords" content="multimodal AI, MMAI, MIT, Valdemar Danry, machine learning, course project, homework, multimodal systems">
   <meta name="author" content="Valdemar Danry">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
 
-  <!-- Open Graph -->
+  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Valdemar Danry">
   <meta property="og:title" content="MMAI 2026 - Valdemar Danry">
-  <meta property="og:description" content="Homework assignments and random thoughts from Modeling Multimodal AI 2026, plus a brainrot-optimized multimodal final project.">
+  <meta property="og:description" content="Modeling Multimodal AI 2026: homework assignments, final project, and random thoughts throughout the class.">
   <meta property="og:url" content="https://valleballe.github.io/mmai/">
-  <!-- Optional: replace with a real preview image if you add one -->
+  <!-- Replace with a real social preview image if you have one -->
   <meta property="og:image" content="https://valleballe.github.io/mmai/static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="MMAI 2026 course site preview">
+  <meta property="og:image:alt" content="MMAI 2026 - Valdemar Danry">
+  <meta property="article:section" content="Education">
+  <meta property="article:tag" content="Multimodal AI">
+  <meta property="article:tag" content="Course Project">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@valleballe">
+  <meta name="twitter:creator" content="@valleballe">
   <meta name="twitter:title" content="MMAI 2026 - Valdemar Danry">
-  <meta name="twitter:description" content="Modeling Multimodal AI 2026 homework, experiments, and random thoughts.">
+  <meta name="twitter:description" content="Modeling Multimodal AI 2026 course site with homework, final project, and notes.">
   <meta name="twitter:image" content="https://valleballe.github.io/mmai/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="MMAI 2026 - Valdemar Danry">
 
-  <!-- Theme -->
-  <meta name="theme-color" content="#111827">
-  <meta name="msapplication-TileColor" content="#111827">
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-  <!-- Preconnect -->
+  <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://ajax.googleapis.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
-  <title>MMAI 2026 - Valdemar Danry | Modeling Multimodal AI</title>
+  <title>MMAI 2026 - Valdemar Danry | Multimodal AI Course Site</title>
 
-  <!-- Favicon -->
+  <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
 
-  <!-- CSS -->
+  <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
+  <!-- Non-critical CSS - Load asynchronously -->
   <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -66,206 +73,160 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- JS -->
+  <!-- Defer non-critical JavaScript -->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
 
-  <!-- Lightweight page-specific styling -->
-  <style>
-    :root {
-      --mmai-accent: #8b5cf6;
-      --mmai-accent-2: #22d3ee;
-      --mmai-bg-soft: #f8fafc;
-      --mmai-dark: #0f172a;
-    }
-
-    .hero.is-mmai {
-      background:
-        radial-gradient(circle at 15% 20%, rgba(139,92,246,0.12), transparent 40%),
-        radial-gradient(circle at 85% 20%, rgba(34,211,238,0.10), transparent 38%),
-        linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-    }
-
-    .course-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: .4rem;
-      margin: .25rem;
-      padding: .35rem .7rem;
-      border-radius: 999px;
-      font-size: .85rem;
-      font-weight: 600;
-      background: white;
-      border: 1px solid #e5e7eb;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.03);
-    }
-
-    .mmai-card {
-      height: 100%;
-      border: 1px solid #e5e7eb;
-      border-radius: 16px;
-      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.05);
-      transition: transform .15s ease, box-shadow .15s ease;
-      background: white;
-    }
-
-    .mmai-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.09);
-    }
-
-    .homework-grid .card-content {
-      display: flex;
-      flex-direction: column;
-      gap: .75rem;
-    }
-
-    .homework-num {
-      font-size: .8rem;
-      font-weight: 700;
-      color: #6b7280;
-      text-transform: uppercase;
-      letter-spacing: .06em;
-    }
-
-    .tiny-muted {
-      color: #6b7280;
-      font-size: .9rem;
-    }
-
-    .section-divider {
-      height: 1px;
-      background: linear-gradient(90deg, transparent, #e5e7eb, transparent);
-      margin: 1rem 0 0;
-    }
-
-    .bio-box {
-      border-radius: 20px;
-      padding: 1.25rem;
-      background: white;
-      border: 1px solid #e5e7eb;
-      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.05);
-    }
-
-    .final-project-box {
-      border-radius: 20px;
-      padding: 1.25rem;
-      background: linear-gradient(180deg, rgba(139,92,246,0.04), rgba(34,211,238,0.03));
-      border: 1px solid rgba(139,92,246,0.15);
-    }
-
-    .list-tight li + li {
-      margin-top: .55rem;
-    }
-
-    .emoji-bullet {
-      margin-right: .45rem;
-    }
-
-    .footer-note {
-      font-size: .95rem;
-      color: #6b7280;
-    }
-  </style>
-
   <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
+    "@type": "WebPage",
     "name": "MMAI 2026 - Valdemar Danry",
+    "description": "Course site for Modeling Multimodal AI 2026 with homework assignments, final project, and notes.",
     "url": "https://valleballe.github.io/mmai/",
-    "description": "Course site for Modeling Multimodal AI 2026 with homework assignments, experiments, and notes.",
     "author": {
       "@type": "Person",
       "name": "Valdemar Danry"
+    },
+    "about": [
+      { "@type": "Thing", "name": "Multimodal AI" },
+      { "@type": "Thing", "name": "Machine Learning" },
+      { "@type": "Thing", "name": "Course Projects" }
+    ],
+    "isPartOf": {
+      "@type": "CreativeWork",
+      "name": "Modeling Multimodal AI 2026"
     }
   }
   </script>
-</head>
 
+  <!-- Small custom polish (spice) -->
+  <style>
+    .stats-strip {
+      margin-top: 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.75rem;
+    }
+    .stat-card {
+      border: 1px solid rgba(0,0,0,.08);
+      border-radius: 12px;
+      padding: 0.85rem 1rem;
+      background: rgba(255,255,255,0.8);
+      backdrop-filter: blur(4px);
+    }
+    .stat-label { font-size: 0.8rem; opacity: .7; }
+    .stat-value { font-weight: 700; font-size: 1rem; margin-top: .15rem; }
+    .homework-list .work-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.9rem 1rem;
+      border-radius: 12px;
+      border: 1px solid rgba(0,0,0,.08);
+      margin-bottom: 0.75rem;
+      transition: transform .12s ease, box-shadow .12s ease;
+    }
+    .homework-list .work-item:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(0,0,0,.06);
+    }
+    .tag-pill {
+      display: inline-block;
+      font-size: .75rem;
+      padding: .2rem .55rem;
+      border-radius: 999px;
+      background: #eef2ff;
+      color: #3730a3;
+      margin-right: .35rem;
+      margin-bottom: .35rem;
+    }
+    .note-card {
+      border-left: 4px solid #2563eb;
+      background: #f8fbff;
+      padding: 1rem 1.1rem;
+      border-radius: 8px;
+    }
+    .hero .publication-title {
+      line-height: 1.1;
+    }
+  </style>
+</head>
 <body>
+
   <!-- Scroll to Top Button -->
   <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- More Works Dropdown (repurposed as Other Things I Make) -->
+  <!-- More Works Dropdown (repurposed as quick navigation) -->
   <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="Other things I make">
-      <i class="fas fa-flask"></i>
-      Other Stuff
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="Quick navigation">
+      <i class="fas fa-compass"></i>
+      Quick Links
       <i class="fas fa-chevron-down dropdown-arrow"></i>
     </button>
     <div class="more-works-dropdown" id="moreWorksDropdown">
       <div class="dropdown-header">
-        <h4>Other Things / Links</h4>
+        <h4>Quick Links</h4>
         <button class="close-btn" onclick="toggleMoreWorks()">
           <i class="fas fa-times"></i>
         </button>
       </div>
       <div class="works-list">
-        <a href="https://valleballe.github.io/" class="work-item" target="_blank" rel="noopener">
+        <a href="https://valleballe.github.io/mmai/" class="work-item" target="_blank" rel="noopener">
           <div class="work-info">
-            <h5>Main Website</h5>
-            <p>My main site / internet home base.</p>
-            <span class="work-venue">valleballe.github.io</span>
+            <h5>Live Course Site</h5>
+            <p>Published GitHub Pages version of this MMAI 2026 hub.</p>
+            <span class="work-venue">GitHub Pages</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <a href="https://github.com/valleballe" class="work-item" target="_blank" rel="noopener">
+        <a href="https://github.com/valleballe/mmai" class="work-item" target="_blank" rel="noopener">
           <div class="work-info">
-            <h5>GitHub</h5>
-            <p>Code, experiments, and occasional chaos.</p>
-            <span class="work-venue">@valleballe</span>
+            <h5>Repository</h5>
+            <p>Source code and content for the course site.</p>
+            <span class="work-venue">GitHub</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="work-item" target="_blank" rel="noopener">
+        <a href="./homework/homework-1/" class="work-item">
           <div class="work-info">
-            <h5>MindMapper Demo (Final Project)</h5>
-            <p>Brainrot-optimized multimodal generator demo video.</p>
-            <span class="work-venue">YouTube</span>
+            <h5>Homework 1</h5>
+            <p>Hamster Cognitive State Classifier</p>
+            <span class="work-venue">Course Assignment</span>
           </div>
-          <i class="fas fa-external-link-alt"></i>
+          <i class="fas fa-arrow-right"></i>
         </a>
       </div>
     </div>
   </div>
 
   <main id="main-content">
-    <!-- HERO -->
-    <section class="hero is-mmai">
+    <!-- Hero -->
+    <section class="hero">
       <div class="hero-body">
         <div class="container is-max-desktop">
           <div class="columns is-centered">
             <div class="column has-text-centered">
               <h1 class="title is-1 publication-title">MMAI 2026</h1>
-              <p class="subtitle is-4" style="margin-top: .5rem;">
-                Modeling Multimodal AI — homework assignments, experiments, and random thoughts
-              </p>
 
-              <div class="is-size-5 publication-authors">
+              <div class="is-size-4 publication-authors" style="margin-top:.5rem;">
                 <span class="author-block">
-                  <a href="https://valleballe.github.io/" target="_blank" rel="noopener">Valdemar Danry</a>
+                  <a href="https://github.com/valleballe" target="_blank" rel="noopener">Valdemar Danry</a>
                 </span>
               </div>
 
-              <div class="is-size-6 publication-authors">
-                <span class="author-block">MIT · 2026</span>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">Modeling Multimodal AI 2026<br>Homework, final project, and random thoughts</span>
               </div>
 
-              <div style="margin-top: 1rem;">
-                <span class="course-chip"><i class="fas fa-brain"></i> Multimodal AI</span>
-                <span class="course-chip"><i class="fas fa-robot"></i> Weird Projects</span>
-                <span class="course-chip"><i class="fas fa-book-open"></i> Homework Log</span>
-                <span class="course-chip"><i class="fas fa-radiation"></i> Mild Brainrot</span>
-              </div>
-
-              <div class="column has-text-centered" style="margin-top: 1rem;">
+              <div class="column has-text-centered">
                 <div class="publication-links">
                   <span class="link-block">
                     <a href="https://github.com/valleballe/mmai" target="_blank" rel="noopener"
@@ -276,259 +237,288 @@
                   </span>
 
                   <span class="link-block">
-                    <a href="#homework" class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon"><i class="fas fa-list-check"></i></span>
-                      <span>Homework</span>
+                    <a href="https://valleballe.github.io/mmai/" target="_blank" rel="noopener"
+                       class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon"><i class="fas fa-globe"></i></span>
+                      <span>Website</span>
                     </a>
                   </span>
 
                   <span class="link-block">
                     <a href="#final-project" class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon"><i class="fas fa-bolt"></i></span>
+                      <span class="icon"><i class="fas fa-brain"></i></span>
                       <span>Final Project</span>
                     </a>
                   </span>
 
                   <span class="link-block">
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener"
-                       class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon"><i class="fab fa-youtube"></i></span>
-                      <span>Demo Video</span>
+                    <a href="#homework" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon"><i class="fas fa-book"></i></span>
+                      <span>Homework</span>
                     </a>
                   </span>
                 </div>
               </div>
 
-              <p class="tiny-muted" style="margin-top: .5rem;">
-                This page uses the Academic Project Page Template, but repurposed as a student course site.
-              </p>
+              <!-- Spice: quick stats -->
+              <div class="stats-strip">
+                <div class="stat-card">
+                  <div class="stat-label">Course</div>
+                  <div class="stat-value">Modeling Multimodal AI 2026</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-label">Homework Items</div>
+                  <div class="stat-value">5</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-label">Theme</div>
+                  <div class="stat-value">Serious ML, unserious titles</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-label">Final Project</div>
+                  <div class="stat-value">MindMapper (brainrot-optimized)</div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- QUICK INTRO -->
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="bio-box">
-          <h2 class="title is-4">What this site is</h2>
-          <p>
-            Welcome to my site for <strong>Modeling Multimodal AI 2026</strong>. This repo contains my homework assignments and random thoughts throughout the class.
-          </p>
-          <div class="section-divider"></div>
-          <p class="tiny-muted" style="margin-top: .85rem;">
-            If something here looks serious, that may be accidental.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- BIO -->
+    <!-- Intro / Bio -->
     <section class="section hero is-light">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column is-four-fifths">
             <h2 class="title is-3 has-text-centered">Bio</h2>
+
             <div class="content has-text-justified">
               <p>
-                hi i’m valdemar. i arrived at MIT through a series of poor containment decisions involving curiosity and the internet.
-                i do research on AI and human thinking which mostly means building experimental systems that refuse to let people
-                intellectually vibe through life unchecked. i like making art / physical things and music. sometimes i produces papers.
+                Hi, I’m Valdemar. I arrived at MIT through a series of poor containment decisions involving curiosity and the internet.
+                I do research on AI and human thinking, which mostly means building experimental systems that refuse to let people
+                intellectually vibe through life unchecked. I like making art / physical things and music. Sometimes I produce papers.
               </p>
-              <p class="tiny-muted">
-                <!-- Optional: If you know the exact path to your photo, add it below -->
-                <!-- Add a profile image here later (e.g., imgs/valdemar.jpg) -->
+            </div>
+
+            <div class="note-card">
+              <p style="margin:0;">
+                This page collects homework assignments and random thoughts throughout the class, plus a final project demo.
               </p>
+            </div>
+
+            <div style="margin-top:1rem;">
+              <span class="tag-pill">multimodal AI</span>
+              <span class="tag-pill">coursework</span>
+              <span class="tag-pill">experiments</span>
+              <span class="tag-pill">computer vision</span>
+              <span class="tag-pill">LLMs / VLMs</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- FINAL PROJECT -->
-    <section class="section" id="final-project">
+    <!-- Final project -->
+    <section class="hero teaser" id="final-project">
       <div class="container is-max-desktop">
-        <div class="final-project-box">
-          <div class="columns is-vcentered">
-            <div class="column is-7">
-              <h2 class="title is-3">Final Project</h2>
-              <p class="is-size-5">
-                <strong>Brainrot Optimized Multi-Modal Generator</strong>
-              </p>
-              <p>
-                For my final project I created a brainrot optimized multi-modal generator
-                (<em>text, video, audio, tactile brainrot</em>).
-              </p>
-              <div class="buttons" style="margin-top: .85rem;">
-                <a class="button is-dark is-rounded" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener">
-                  <span class="icon"><i class="fab fa-youtube"></i></span>
-                  <span>Watch Demo</span>
-                </a>
-                <a class="button is-light is-rounded" href="https://github.com/valleballe/mmai" target="_blank" rel="noopener">
-                  <span class="icon"><i class="fab fa-github"></i></span>
-                  <span>View Repo</span>
-                </a>
-              </div>
-            </div>
-            <div class="column is-5">
-              <div class="publication-video">
-                <iframe
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                  title="MindMapper Demo"
-                  frameborder="0"
-                  allow="autoplay; encrypted-media"
-                  allowfullscreen>
-                </iframe>
-              </div>
-            </div>
+        <div class="hero-body">
+          <h2 class="title is-3 has-text-centered">Final Project — MindMapper</h2>
+
+          <!-- If you have a local banner video, keep it; otherwise this YouTube embed below is enough -->
+          <!-- <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+          </video> -->
+
+          <div class="publication-video" style="margin-top: 1rem;">
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="MindMapper Demo"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen>
+            </iframe>
           </div>
+
+          <h2 class="subtitle has-text-centered" style="margin-top:1rem;">
+            A brainrot-optimized multi-modal generator (text, video, audio, tactile brainrot).
+          </h2>
         </div>
       </div>
     </section>
 
-    <!-- HOMEWORK -->
-    <section class="section hero is-light" id="homework">
-      <div class="container is-max-desktop">
-        <div class="has-text-centered" style="margin-bottom: 1.5rem;">
-          <h2 class="title is-3">Homework</h2>
-          <p class="subtitle is-6">Weekly assignments with increasingly concerning premises</p>
-        </div>
-
-        <div class="columns is-multiline homework-grid">
-          <div class="column is-12-mobile is-6-tablet is-4-desktop">
-            <div class="card mmai-card">
-              <div class="card-content">
-                <div class="homework-num">Homework 1</div>
-                <h3 class="title is-5">Dataset: Hamster Cognitive State Classifier</h3>
-                <p class="tiny-muted">A very normal starting point.</p>
-                <a class="button is-dark is-small is-rounded" href="./homework/homework-1/">Open</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="column is-12-mobile is-6-tablet is-4-desktop">
-            <div class="card mmai-card">
-              <div class="card-content">
-                <div class="homework-num">Homework 2</div>
-                <h3 class="title is-5">Fusion: Weather + Tweets + Sleep → Existential Dread</h3>
-                <p class="tiny-muted">Predictive multimodal wellness engineering.</p>
-                <a class="button is-dark is-small is-rounded" href="./homework/homework-2/">Open</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="column is-12-mobile is-6-tablet is-4-desktop">
-            <div class="card mmai-card">
-              <div class="card-content">
-                <div class="homework-num">Homework 3</div>
-                <h3 class="title is-5">VLM on 10,000 Reddit Arguments → Released into Slack</h3>
-                <p class="tiny-muted">What could possibly go wrong.</p>
-                <a class="button is-dark is-small is-rounded" href="./homework/homework-3/">Open</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="column is-12-mobile is-6-tablet is-6-desktop">
-            <div class="card mmai-card">
-              <div class="card-content">
-                <div class="homework-num">Homework 4</div>
-                <h3 class="title is-5">RL Model for Optimal Seminar Smart-Comment Timing</h3>
-                <p class="tiny-muted">Maximize perceived insight per interruption.</p>
-                <!-- README currently points HW4 to homework-3; update if/when you create a real folder -->
-                <a class="button is-dark is-small is-rounded" href="./homework/homework-3/">Open (current link)</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="column is-12-mobile is-6-tablet is-6-desktop">
-            <div class="card mmai-card">
-              <div class="card-content">
-                <div class="homework-num">Homework 5</div>
-                <h3 class="title is-5">Agent-Run Cult with RL for Member Retention</h3>
-                <p class="tiny-muted">Retention metrics, but make it cursed.</p>
-                <!-- README currently points HW5 to homework-3; update if/when you create a real folder -->
-                <a class="button is-dark is-small is-rounded" href="./homework/homework-3/">Open (current link)</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <p class="tiny-muted has-text-centered" style="margin-top: 1rem;">
-          Note: Homework 4 and 5 currently point to <code>homework-3</code> in the repo README; update paths when those pages exist.
-        </p>
-      </div>
-    </section>
-
-    <!-- RANDOM THOUGHTS / NOTES -->
-    <section class="section">
+    <!-- Homework -->
+    <section class="section" id="homework">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column is-four-fifths">
-            <h2 class="title is-3 has-text-centered">Random Thoughts</h2>
-            <div class="content">
-              <ul class="list-tight">
-                <li><span class="emoji-bullet">🧠</span>Multimodal modeling gets much funnier when the modalities are emotionally overfit.</li>
-                <li><span class="emoji-bullet">🛠️</span>This page is half documentation, half evidence trail, half bit.</li>
-                <li><span class="emoji-bullet">📉</span>Yes, that is three halves. This is multimodal AI.</li>
-              </ul>
-              <p class="tiny-muted">
-                You can replace this section with weekly notes, failures, screenshots, or “what I learned this week.”
-              </p>
+            <h2 class="title is-3 has-text-centered">Homework</h2>
+
+            <div class="homework-list">
+              <a href="./homework/homework-1/" class="work-item">
+                <div class="work-info">
+                  <h5>Homework 1 — Dataset</h5>
+                  <p>Hamster Cognitive State Classifier</p>
+                  <span class="work-venue">Dataset / Classification</span>
+                </div>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+
+              <a href="./homework/homework-2/" class="work-item">
+                <div class="work-info">
+                  <h5>Homework 2 — Fusion</h5>
+                  <p>Fusing weather data, tweets, and my sleep schedule to predict existential dread</p>
+                  <span class="work-venue">Multimodal Fusion</span>
+                </div>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+
+              <a href="./homework/homework-3/" class="work-item">
+                <div class="work-info">
+                  <h5>Homework 3 — VLM</h5>
+                  <p>Training a model on 10,000 Reddit arguments and releasing it into Slack</p>
+                  <span class="work-venue">Vision-Language / LLM-ish chaos</span>
+                </div>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+
+              <!-- README currently points HW4/HW5 to homework-3 as well -->
+              <a href="./homework/homework-3/" class="work-item">
+                <div class="work-info">
+                  <h5>Homework 4 — RL</h5>
+                  <p>Model that learns the optimal moment to say something smart in a seminar</p>
+                  <span class="work-venue">Reinforcement Learning</span>
+                </div>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+
+              <a href="./homework/homework-3/" class="work-item">
+                <div class="work-info">
+                  <h5>Homework 5 — Agent</h5>
+                  <p>Agent that runs a cult using reinforcement learning for member retention</p>
+                  <span class="work-venue">Agents / RL</span>
+                </div>
+                <i class="fas fa-arrow-right"></i>
+              </a>
             </div>
+
+            <p class="has-text-centered" style="margin-top: 1rem; opacity:.8;">
+              (If HW4/HW5 get separate pages later, just update the links above.)
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- OPTIONAL MEDIA / GALLERY PLACEHOLDER -->
+    <!-- Optional media carousel (keep if you have assets; otherwise remove cleanly) -->
     <section class="hero is-small is-light">
       <div class="hero-body">
         <div class="container is-max-desktop">
-          <h2 class="title is-3 has-text-centered">Gallery (Optional)</h2>
-          <p class="has-text-centered tiny-muted">
-            Add screenshots/GIFs of homework outputs in <code>imgs/</code> and wire them here later.
-          </p>
-          <!-- Example skeleton kept simple to avoid broken image links -->
+          <h2 class="title is-3 has-text-centered">Highlights</h2>
+          <div class="content has-text-centered">
+            <p>
+              This template supports image/video carousels. If you want, use this section for screenshots of homework outputs,
+              plots, generated artifacts, or “what went wrong and why it was funny.”
+            </p>
+          </div>
+
+          <!-- Uncomment only if these files actually exist in your repo -->
+          <!--
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="item">
+              <img src="static/images/carousel1.jpg" alt="Homework visualization 1" loading="lazy"/>
+              <h2 class="subtitle has-text-centered">Homework visualization / result 1.</h2>
+            </div>
+            <div class="item">
+              <img src="static/images/carousel2.jpg" alt="Homework visualization 2" loading="lazy"/>
+              <h2 class="subtitle has-text-centered">Homework visualization / result 2.</h2>
+            </div>
+            <div class="item">
+              <img src="static/images/carousel3.jpg" alt="Homework visualization 3" loading="lazy"/>
+              <h2 class="subtitle has-text-centered">Homework visualization / result 3.</h2>
+            </div>
+          </div>
+          -->
         </div>
       </div>
     </section>
 
-    <!-- BIBTEX repurposed as Site Credits -->
-    <section class="section" id="credits">
+    <!-- Repo / License -->
+    <section class="section" id="about-site">
       <div class="container is-max-desktop content">
-        <div class="bibtex-header">
-          <h2 class="title">Site Credits</h2>
-        </div>
-<pre><code>Template: Academic Project Page Template (eliahuhorwitz)
-Adapted for: MMAI 2026 course site / homework log
-Author: Valdemar Danry
-License: CC BY-SA 4.0 (see footer)</code></pre>
-      </div>
-    </section>
+        <h2 class="title is-3 has-text-centered">About This Site</h2>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-8">
-            <div class="content">
-              <p class="footer-note">
-                This page was built using the
-                <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank" rel="noopener">Academic Project Page Template</a>
-                (adapted from <a href="https://nerfies.github.io" target="_blank" rel="noopener">Nerfies</a>).
-                You are free to borrow the source code of this website, we just ask that you link back to the original template in the footer.
+        <div class="columns">
+          <div class="column">
+            <div class="box">
+              <h4 class="title is-5">Repository</h4>
+              <p>
+                Source code lives at
+                <a href="https://github.com/valleballe/mmai" target="_blank" rel="noopener">github.com/valleballe/mmai</a>.
               </p>
-              <p class="footer-note">
-                This website is licensed under a
-                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">
-                  Creative Commons Attribution-ShareAlike 4.0 International License
+              <p>
+                Built from the Academic Project Page Template and adapted into a course portfolio / homework hub.
+              </p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="box">
+              <h4 class="title is-5">License</h4>
+              <p>
+                This site content is licensed under
+                <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">
+                  Creative Commons Attribution-ShareAlike 4.0 International
                 </a>.
               </p>
             </div>
           </div>
         </div>
       </div>
-    </footer>
+    </section>
+
+    <!-- "BibTeX" section repurposed into site manifest for fun -->
+    <section class="section" id="SiteManifest">
+      <div class="container is-max-desktop content">
+        <div class="bibtex-header">
+          <h2 class="title">Site Manifest</h2>
+          <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy to clipboard">
+            <i class="fas fa-copy"></i>
+            <span class="copy-text">Copy</span>
+          </button>
+        </div>
+<pre id="bibtex-code"><code>@misc{danry_mmai_2026,
+  title        = {MMAI 2026},
+  author       = {Valdemar Danry},
+  howpublished = {\url{https://valleballe.github.io/mmai/}},
+  note         = {Modeling Multimodal AI 2026 course site: homework, final project, and notes},
+  year         = {2026}
+}</code></pre>
+      </div>
+    </section>
+
   </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the
+              <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank" rel="noopener">Academic Project Page Template</a>,
+              adopted from the <a href="https://nerfies.github.io" target="_blank" rel="noopener">Nerfies</a> project page.
+              <br>
+              This website is licensed under a
+              <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">
+                Creative Commons Attribution-ShareAlike 4.0 International License
+              </a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
