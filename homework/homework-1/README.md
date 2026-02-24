@@ -2,4 +2,5 @@
 
 
 For my final project I want to build a classifier that can tell the cognitive state of my hamster.
-![description](images/hamster.png)
+
+![description](imgs/hamster.png)
