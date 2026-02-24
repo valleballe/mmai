@@ -1,9 +1,11 @@
-# Valdemar MMAI 2026
+# MMAI 2026 - Valdemar Danry
 
 Welcome to my site for Modeling Multimodal AI 2026.
 This repo contains my homework assignments and random thoughts throughout the class.
 
 ## Bio
+<img src="./imgs/profile.png" style="width:200px;">
+
 hi i’m valdemar. i arrived at MIT through a series of poor containment decisions involving curiosity and the internet. i do research on AI and human thinking which mostly means building experimental systems that refuse to let people intellectually vibe through life unchecked. i like making art / physical things and music. sometimes i produces papers. 
 
 ## Final Project
