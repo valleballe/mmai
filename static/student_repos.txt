@@ -1,0 +1,118 @@
+Rohan Kumar - https://github.com/rohankumar-1/mmai
+Natalie Barnouw - https://github.com/nbarnouw/multimodal-seizure-detection-nb
+Marlene Moerig - 
+Project: https://github.com/rohankumar-1/multimodal-seizure-detection
+
+
+Julia Kim - https://github.com/juliavekim/mmai
+Xander Backus - https://github.com/xabackus/mmai
+Project: https://github.com/juliavekim/EgoBlind-RA
+
+
+Joseph Firmansyah - not found
+Stephanie Chen - not found
+Sophie Lin - not found
+Project: https://github.com/joseph-mit/MultiModalAI
+
+
+Sathya Edamadaka - 
+Project: https://github.com/snme/mclm
+
+
+Akhil Sadam - https://github.com/akhilsadam/MMAI/tree/master
+Project:
+
+
+Xiaoyang Wu - not found
+Hang Zhao - not found
+Project: https://github.com/hangzhao1006/Multi-Modal-AI
+
+
+Yiqiao Huang - not found
+Hongbee Park - not found
+Ruyi Yang - not found
+Project: https://github.com/emmaruyiyang/MMAI-MemeSonic
+
+
+Ethan Chang - https://github.com/eth-rbt/mmaihw
+Alice Xiao - not found
+Celinda Zhu - not found
+Project: https://github.com/eth-rbt/mmaihw
+
+
+Sarunyu Thongjarast - not found
+Xinghong Fu - not found
+Project: https://github.com/shinfxh/mmhallucation
+
+
+Nicholas Sung - not found
+Anna C. Doris - not found
+Project: https://github.com/nicksungg/trimodal-cad
+
+
+Rachel Li - https://github.com/hnxnq7/mmai
+Emma Wang - https://github.com/greenMangoes13/mmai
+Winston Qian - https://github.com/winstonqian/mmai
+Project: 
+
+
+Catherine Ning - not found
+Joshua Drossman - not found
+Peiran Niu - not found
+Project: https://github.com/cat2510/MILP-MMAI/tree/main
+
+
+Riddhi Bhagwat - not found
+Nicole Shen - not found
+Nilay Mishra - not found
+Project: 
+
+
+Michael Serrano - not found
+Arthur De Los Santos  - not found
+Dylan Mazard - not found
+Project: https://github.com/arthurdls/multimodal-tool-retrieval
+
+
+Linrui Ma - not found
+Aimee Yu - not found
+Grace Yuan - not found
+Project: Github.com/JerryLin828/neuromusic
+
+
+Wenbin Ouyang: https://github.com/oywenbin/MMA_Repo
+Yifei Duan: https://github.com/YifeiDuan/mmai
+Zhuotao Jin: https://github.com/jinzhta/MMAI_2026spring
+Yanchen Liu: https://github.com/liuyanchen1015/MMA
+
+
+Heejung Roh - not found
+Yiran Tao - not found
+Sparsh Bansal - not found
+Jung Yeop (Steve) Kim - not found
+Project
+
+
+Andrea Jimenez Fernandez - not found
+Cerine Hamida - not found
+Kevin Power - not found
+Project: https://github.com/andreajf94/Multimodal
+
+
+Cassandra He- not found
+Liane Xu- not found
+Edward Chen- not found
+Akshata Tiwari- not found
+Project: https://github.com/cassandraxzhe/mmai-tactile-grasp
+
+
+Eva Ge: https://github.com/thunderingluck/MultiBench
+Amy He: https://github.com/heamy121/mmai
+Minnie Liang: https://github.com/minniemouse05/mmai-dump
+Project: 
+
+
+Carol Gao - https://github.com/carolxmgao/bsi-mmai-carol 
+Seehanah Tang  - https://github.com/seehanahtang/bsi-mmai-seehanah 
+Project:
+
